@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;    
+}
+
+.box {
+    border: 1px orange solid; 
+    float: left;
+    width: 50%;
+    font-size: 20px; 
+
+}
