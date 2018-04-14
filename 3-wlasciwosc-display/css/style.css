@@ -1,0 +1,34 @@
+#p1 {
+    background-color: red;
+}
+
+#p2 {
+    background-color: blue;
+}
+
+div#elementy-inline > :first-child {
+    background-color: yellow;
+}
+
+div#elementy-inline > :last-child {
+    background-color: fuchsia;
+}
+
+div#elementy-inline span{
+    display: block;    
+}
+
+div#elementy-inline-block ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    background-color: beige;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 50px;
+}
+
+div#elementy-display-none {
+    display: none;
+}
