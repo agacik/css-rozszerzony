@@ -1,0 +1,7 @@
+#tlo-obrazek {
+    background-image: url("http://lukspanda.pl/img/szkolaipanda.png"), url("http://lukspanda.pl/img/panda_1prpcent.jpg");
+    background-repeat: no-repeat;
+    background-position: top center, left bottom;
+    background-attachment: fixed;
+    background-size: contain;
+}
