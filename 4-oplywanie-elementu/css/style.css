@@ -12,6 +12,7 @@ img {
 
 p:last-child {
     clear: both;
+    text-align: justify;
 }
 
 /*
