@@ -1,0 +1,48 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+#colors {
+    background-color: yellow;
+    transition: background-color 3s linear 2s;
+}
+
+#colors:hover {
+    background-color: green;
+}
+
+#box1 {
+    background-color: red;
+    transition: width 4s ease-in-out 0s;
+    width: 150px;   
+    background-position: center;
+}
+
+#box1:hover {
+    width: 300px;
+    background-position: center;
+}
+
+#box2 {
+    background-color: blue;
+    transition: height 1s linear 0s;
+    height: 150px;
+}
+
+#box2:hover {
+    height: 300px;
+}
+
+#box3 {
+    background-color: green;
+    transition: height 4s linear 0s, width 2s linear 0s;
+    height: 150px;
+    width: 150px;
+}
+
+#box3:hover {
+    height: 300px;
+    width: 300px;
+}
